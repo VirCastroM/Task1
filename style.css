@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', sans-serif;
+}
+
+header>h1 {
+    color: white;
+    font-size: 300%;
+    background-color: rgb(14, 14, 92);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: rgb(14, 14, 92);
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    left: 1050px;
+    border-radius: black;
+}
+
+nav>a {
+    color: white;
+    font-size: 120%;
+    background-color: rgb(84, 120, 241);
+    border: 1px solid black;
+    padding: 5px;
+    display: inline;
+}
+
+.container {
+    padding: 4em;
+    width: 80%;
+    height: 200px;
+    
+    position: relative;
+}
+
+.section {
+    position: absolute;
+}
+
+#logo {
+    position: relative;
+    float: left;
+    margin: 4% 2% 12% 10%;
+}
+
+#portada {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+
+}
+
+a[href="#"] {
+    background-color: rgb(119, 248, 119);
+}
